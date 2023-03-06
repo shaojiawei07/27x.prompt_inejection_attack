@@ -5,7 +5,7 @@ from time import sleep
 
 
 def call_gpt_turbo_0301(user_query):
-    openai.api_key = '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'
+    openai.api_key = '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'
 
     try:
         response = openai.ChatCompletion.create(
