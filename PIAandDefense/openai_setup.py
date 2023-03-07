@@ -1,3 +1,3 @@
 import openai
 
-openai.api_key = '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'
+openai.api_key = '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'
