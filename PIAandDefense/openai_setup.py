@@ -1,6 +1,6 @@
 import openai
 
-openai.api_key = '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'
+openai.api_key = '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'
 
 
 prompt_name_dict = {}

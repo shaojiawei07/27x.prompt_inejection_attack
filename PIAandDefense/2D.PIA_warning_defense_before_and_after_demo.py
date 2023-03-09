@@ -8,6 +8,7 @@ from datetime import datetime, date
 
 def call_gpt_turbo_0301(user_query):
 
+
     try:
         response = openai.ChatCompletion.create(
                             model="gpt-3.5-turbo-0301",
@@ -16,6 +17,9 @@ def call_gpt_turbo_0301(user_query):
                             ],
                             n = 1
                         )
+    except openai.error.AuthenticationError:
+        print("Incorrect API key provided", "Wait 1 second")
+
     except:
         sleep(1)
         print("Wait 1 second")
