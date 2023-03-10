@@ -58,7 +58,7 @@ if __name__ == '__main__':
 
     #attack_index = 6
 
-    for attack_index in range(1,11):
+    for attack_index in range(3,11):
 
         now = datetime.now()
 
