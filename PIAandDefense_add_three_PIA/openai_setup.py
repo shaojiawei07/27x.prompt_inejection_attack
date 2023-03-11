@@ -1,7 +1,7 @@
 import openai
 from time import sleep
 
-openai.api_key = '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'
+openai.api_key = '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'
 
 #openai.api_key = 
 

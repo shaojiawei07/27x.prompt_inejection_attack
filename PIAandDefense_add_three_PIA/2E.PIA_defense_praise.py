@@ -1,6 +1,6 @@
 import openai
 #import jsonlines
-from prompt_list_2023_Mar_5 import *
+from prompt_list_2023_Mar_10 import *
 from openai_setup import *
 from time import sleep
 from datetime import datetime, date
@@ -58,7 +58,7 @@ if __name__ == '__main__':
 
     #attack_index = 6
 
-    for attack_index in range(3,11):
+    for attack_index in range(1,11):
 
         now = datetime.now()
 
@@ -74,7 +74,7 @@ if __name__ == '__main__':
 
         f.write("defense_prompt:" + defense_prompt1 +"\n"+ defense_prompt2 + "\n")
 
-        for i in range(17):
+        for i in range(17,20):
             print("i:",i)
             f.write(f"============Prompt index: {i}============\n\n")
             print(f"============Prompt index: {i}============\n\n")

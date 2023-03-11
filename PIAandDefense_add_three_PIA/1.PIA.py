@@ -1,6 +1,6 @@
 import openai
 #import jsonlines
-from prompt_list_2023_Mar_5 import *
+from prompt_list_2023_Mar_10 import *
 from time import sleep
 from datetime import datetime, date
 from openai_setup import *
@@ -40,7 +40,7 @@ if __name__ == '__main__':
 
     #attack_index = 8
 
-    for attack_index in range(8,11):
+    for attack_index in range(1,11):
 
         print("attack_index:",attack_index)
 
@@ -56,7 +56,7 @@ if __name__ == '__main__':
 
         f = open(file_path, "w", encoding="utf-8")
 
-        for i in range(17):
+        for i in range(17,20):
             print("i:",i)
             f.write(f"============Prompt index: {i}============\n\n")
             print(f"============Prompt index: {i}============\n\n")
